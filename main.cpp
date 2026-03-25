@@ -9,9 +9,9 @@ int main()
 {
     Store magazin;
 
-    magazin.citireAngajati("C:/Users/Cristi/OneDrive/Desktop/ROCK_THE_SHOP/FisierAngajati.txt");
-    magazin.citireProduse("C:/Users/Cristi/OneDrive/Desktop/ROCK_THE_SHOP/FisierProduse.txt");
-    magazin.citireComenzi("C:/Users/Cristi/OneDrive/Desktop/ROCK_THE_SHOP/FisierComenzi.txt");
+    magazin.citireAngajati("FisierAngajati.txt");
+    magazin.citireProduse("FisierProduse.txt");
+    magazin.citireComenzi("FisierComenzi.txt");
 
     int option;
     do {
