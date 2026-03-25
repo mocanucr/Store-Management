@@ -1,8 +1,8 @@
-# ROCK the SHOP 🎸👕
+# ROCK the SHOP 
 
 **ROCK the SHOP** este o aplicație consolă dezvoltată în C++ (folosind concepte de Programare Orientată pe Obiecte) pentru gestionarea unui magazin de muzică și vestimentație. Aplicația permite administrarea angajaților, a stocului de produse, procesarea comenzilor și generarea de rapoarte detaliate.
 
-## 🌟 Funcționalități Principale
+## Funcționalități Principale
 
 Aplicația oferă un meniu interactiv (CLI) structurat pe 4 categorii principale:
 
@@ -11,21 +11,21 @@ Aplicația oferă un meniu interactiv (CLI) structurat pe 4 categorii principale
    - Afișarea tuturor angajaților sau căutarea după ID.
    - Tipuri de angajați suportați: *Manager*, *Operator*, *Asistent*.
 
-2. **Gestionare Produse** 📦
+2. **Gestionare Produse** 
    - Adăugare, stergere și actualizare stoc produse.
    - Afișarea tuturor produselor din stoc sau căutarea unui produs specific după cod.
    - Tipuri de produse: *Haine*, *Discuri* (normale) și *Discuri Vintage*.
 
-3. **Procesare Comenzi** 🛒
+3. **Procesare Comenzi** 
    - Preluarea comenzilor plasate de clienți și asignarea lor către operatorii magazinului sau plasarea în coada de așteptare.
 
-4. **Generare Rapoarte (CSV)** 📊
+4. **Generare Rapoarte (CSV)** 
    - Exportarea datelor în format CSV pentru analiză:
      - Angajatul cu cele mai multe comenzi procesate.
      - Top 3 operatori cu cele mai valoroase comenzi.
      - Top 3 angajați cu cele mai mari salarii.
 
-## 🛠️ Concepte OOP Utilizate
+## Concepte OOP Utilizate
 
 Aplicația folosește pe scară largă principii moderne de dezvoltare software (OOP):
 - **Încapsulare**: Datele claselor sunt protejate.
@@ -36,7 +36,7 @@ Aplicația folosește pe scară largă principii moderne de dezvoltare software 
 - **Tratarea Excepțiilor**: Gestionarea erorilor (blocuri `try-catch`) la instantierea obiectelor.
 - **STL (Standard Template Library)**: Folosirea intensă a containerelor `std::vector`, `std::map` și `std::queue`.
 
-## 🚀 Cum se rulează
+## Cum se rulează
 
 ### Cerințe:
 - Un compilator C++ (suport minim C++11/C++14).
@@ -58,7 +58,7 @@ Aplicația folosește pe scară largă principii moderne de dezvoltare software 
 
 > **Notă:** Asigură-te că fișierele de date inițiale (`FisierAngajati.txt`, `FisierProduse.txt`, `FisierComenzi.txt`) au calea configurată corect în `main.cpp` (actualmente setate pe directoare absolute) pentru o încărcare reușită a bazei de date de pornire.
 
-## 📂 Structura Proiectului
+## Structura Proiectului
 
 * `main.cpp` - Punctul de intrare al aplicației și definirea meniului interactiv.
 * `store.h` / `store.cpp` - Clasa principală `Store` care încapsulează logica, listele (vector/map/queue) și metodele pentru toate operațiunile magazinului.
